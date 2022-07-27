@@ -1,0 +1,13 @@
+package uz.pdp.cinemaroom.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import uz.pdp.cinemaroom.entity.session.SessionDate;
+
+import java.time.LocalDate;
+import java.util.Date;
+
+
+@Repository
+public interface SessionDateRepo extends JpaRepository<SessionDate, String> {
+}
